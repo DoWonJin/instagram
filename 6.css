@@ -1,0 +1,242 @@
+header{
+  height: 68px;
+  position:fixed;
+  top:0;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid black;
+}
+.out{
+  margin: 0 15% 0;
+  height: 33px;
+  width: 70%;
+  padding: 26px 40px;
+}
+.home{
+  display: inline-block;
+  margin-right: 16.5%;
+  box-sizing: border-box;
+  overflow:visible;
+  height: 100%;
+  width: 200px;
+  background: url("insta_pic.png");
+  background-position: 0 675px ;
+}
+.search{
+  display: inline-block;
+  position: relative;
+  top:-20px;
+
+}
+.personal{
+  float: right;
+  height: 100%;
+  width: 155.9px;
+}
+.personal div{
+
+}
+
+.direc{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("insta_pic.png");
+  background-position: 69% 94%;
+  margin-left: 20px;
+}
+.heart_grp{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("insta_pic.png");
+  background-position: 12.7% 93%;
+  margin-left: 20px;
+}
+.account{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("insta_pic.png");
+  background-position: 94% 21%;
+  margin-left: 20px;
+}
+
+
+article{
+  margin: 120px 0 0 20%;
+  width: 39%;
+
+
+  display: inline-block;
+}
+.info{
+  border: 0 solid black;
+  height: 1%;
+  padding: 2%;
+}
+.photo_small{
+  height: 100%;
+  display: inline-block;
+}
+.photo_small img{
+  border-radius: 50%;
+}
+.person{
+  margin-left: 5px;
+  display: inline-block;
+}
+.photo_upload{
+  overflow:hidden;
+  width: 100%;
+
+}
+.middle{
+  width: 100%;
+  height: 30px;
+}
+.heart_1{
+  margin-left: 10px;
+  display: inline-block;
+  width: 28px;
+  height: 23px;
+  background: url("insta_pic.png");
+  background-position: 37.2% 93%;
+}
+.heart_2{
+  margin-left: 10px;
+  display: inline-block;
+  width: 28px;
+  height: 23px;
+  background: url("insta_pic.png");
+  background-position: 25% 93%;
+}
+.lx{
+  padding-left: 2px;
+  margin-top: 0;
+}
+li{
+  list-style: none;
+}
+.lx a:last-child{
+  margin-left: 6px;
+}
+a{
+  text-decoration: none;
+}
+.talk{
+  margin-left: 10px;
+  display: inline-block;
+  width: 24px;
+  height: 23px;
+  background: url("insta_pic.png");
+  background-position: 0% 100%;
+}
+.save{
+  margin-right: 30px;
+  float: right;
+  width: 24px;
+  height: 40px;
+  background: url("insta_pic.png");
+  background-position: 75% 97%;
+}
+.save_2{
+  margin-right: 30px;
+  float: right;
+  width: 24px;
+  height: 30px;
+  background: url("insta_pic.png");
+  background-position: 6% 94%;
+}
+.comment{
+  float: left;
+}
+.comment button{
+  float: right;
+  width: 50px;
+}
+.navi{
+
+  margin-left: 20px;
+  margin-top: 120px;
+  padding:10px;
+  width: 320px;
+  height: 250px;
+    display: inline-block;
+  position: fixed;
+}
+.tx{
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+.mine{
+  height: 300px; /* 높이가 브라우저에서 표시안돼 */
+}
+.person_navi{
+  display: inline-block;
+}
+article > div{
+  margin-bottom: 60px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.contents{
+  margin-bottom: 60px;
+}
+.story{
+  border-bottom:1px solid;
+  padding-bottom: 20px;
+}
+footer ul li{
+  display: inline-block;
+  font-size: small;
+}
+footer ul{
+  padding-left: 0;
+}
+.download{
+  position: fixed;
+  width: 100%;
+  background: white;
+  border-top: 3px solid rgb(241, 23, 121);
+  height: 70px;
+  bottom: 0;
+}
+.tc{
+  margin: 0 15% 0;
+  width: 70%;
+
+}
+.tc div{
+  display: inline-block;
+
+}
+.pic2{
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  background: url("insta_pic.png");
+  background-position: 83.1% 68.5%;
+}
+.logo{
+  position: relative;
+  float: right;
+  padding-top: 23px;
+}
+.logo div{
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+}
+.micro{
+    background: url("insta_pic.png");
+    background-position: 81.3% 24.5%;
+}
+.google{
+    background: url("insta_pic.png");
+    background-position: 83.3% 1.5%;
+}
+.apple{
+    background: url("insta_pic.png");
+    background-position: 83.3% 12.8%;
+}

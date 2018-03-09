@@ -1,0 +1,120 @@
+h1 {font-size: 1.8em;}
+header{
+  height: 68px;
+  position:fixed;
+  top:0;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid black;
+}
+.out{
+  margin: 0 15% 0;
+  height: 33px;
+  width: 70%;
+  padding: 26px 40px;
+}
+.out > a{
+  height: 100%;
+  width: 190px;
+  display: inline-block;
+}
+.home{
+  display: inline-block;
+  margin-right: 16.5%;
+  box-sizing: border-box;
+  overflow:visible;
+  height: 100%;
+  width: 200px;
+  background: url("img/insta_pic.png");
+  background-position: 0 675px ;
+}
+.search{
+  margin-left:15%;
+  display: inline-block;
+  position: relative;
+  top:-20px;
+
+}
+.personal{
+  float: right;
+  height: 100%;
+  width: 155.9px;
+}
+.direc{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("img/insta_pic.png");
+  background-position: 69% 94%;
+  margin-left: 20px;
+}
+.heart_grp{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("img/insta_pic.png");
+  background-position: 12.7% 93%;
+  margin-left: 20px;
+}
+.account{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  background: url("img/insta_pic.png");
+  background-position: 94% 21%;
+  margin-left: 20px;
+}
+
+article{
+  margin: 150px auto 30px;
+  width: 65%;
+  border: black solid 1px;
+  overflow: hidden;
+}
+form{
+}
+.profile_info{
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.profile_pic1{
+  display: inline-block;
+  float: left;
+  margin-left: 90px;
+}
+.profile_pic2{
+  border-radius: 50%;
+}
+.profile{
+  float: left;
+  margin-left: 100px;
+}
+.profile_1>*{
+  display: inline-block;
+}
+.settings div{
+  background-image: url("img/insta_pic.png");
+  background-position: 94% 41%;
+  width: 25px;
+  height: 25px;
+}
+.navi span{
+  position: relative;
+  left: 43%;
+  margin-left: 20px;
+}
+.pic_group{
+  width:100%;
+  overflow:hidden;
+  margin-top: 20px;
+}
+.pic_group div{
+  width: 30%;
+  height: 300px;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 30px;
+  float: left;
+  border: 1px solid black;
+
+}

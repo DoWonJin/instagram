@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      div{
+        display: table;
+        margin: 0 auto;
+
+        width: 80%;
+        height: 30px;
+        border: 1px black solid;
+
+      }
+      div>div{
+        box-sizing: border-box;
+        float:left;
+        width: 50%;              /*하위 속성의 width값을 50%로 맞출 수 없고 테두리간의 겹칩을 제거하지 못하고 있다.*/
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+    <div></div>
+  </body>
+</html>
